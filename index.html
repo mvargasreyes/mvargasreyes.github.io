@@ -49,14 +49,13 @@
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
 	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">I'm Miguel Vargas.</h1>
+            <h1 class="responsive-headline">Miguel Vargas.</h1>
             <h3>Current certifications:</h3>
             <hr />
             <ul class="social">
@@ -113,7 +112,7 @@
 
                <div class="columns download">
                   <p>
-                     <a href="files/test.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a href="files/resume-MiguelVargas.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
 
@@ -129,32 +128,6 @@
    <!-- Resume Section
    ================================================== -->
    <section id="resume">
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>INSTITUTO SUPERIOR TECNOLÓGICO CIBERTEC</h3>
-                  <p class="info">Computación e Informática <span>&bull;</span> <em class="date">February 2012</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
 
       <!-- Work
       ----------------------------------------------- -->
@@ -255,153 +228,81 @@
          </div> <!-- main-col end -->
 
       </div> <!-- End Work -->
+	  
+      <!-- Projects
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Projects</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+			<div class="row item">
+
+               <div class="twelve columns">
+
+				<h3>Serverless resume website with view counter using Azure.</h3>
+				<p class="info"><em class="date">April 2021</em></p>
+				<p>
+				<ul>
+				  <li>Built a responsive site in HTML.</li>
+				  <li>View counter uses an Azure Function written in Node.js to update DynamoDB's counter.</li>
+				  <li>The Azure function runs when the Endpoint is called by a JavaScript.</li>
+				  <li>Content Delivery Network using a Blob Storage origin.</li>
+				  <li>Website front-end is deployed to Azure Blob Storage through CI/CD pipeline using GitHub Actions.</li>
+				  <li>Final <a href="https://www.vargasreyes.cloud" target="_blank">Product</a></li>
+				</ul>
+				</p>
+               </div>
+			   </div>
+
+            <div class="row item">
+               <div class="twelve columns">			   
+				<h3>Automated deployment of infrastructure for an OnBase Solution on AWS.</h3>
+				<p class="info"><em class="date">September 2020</em></p>			
+				<p>
+				<ul>
+				  <li>Developed stack that provisions and deploys the OnBase Database, App and Web Server, reducing the time that takes to create a Demo Environment by 85%.</li>
+				  <li>Incorporated an Elastic Load Balancing to distribute workloads across servers.</li>
+				  <li>Incorporated Amazon Simple Storage Service (Amazon S3) to store Document Types.</li>
+				</ul>
+				</p>
+				</div> <!-- main-col end -->
+					</div> <!-- main-col end -->
+				</div>
+			</div>
+      </div> <!-- End skills -->	  
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row skills">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>INSTITUTO SUPERIOR TECNOLÓGICO CIBERTEC</h3>
+                  <p class="info">Computación e Informática <span>&bull;</span> <em class="date">February 2012</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+	  
 
    </section> <!-- Resume Section End-->
 
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>Check Out Some of My Works.</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-          	    <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/console.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-          	    <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/console.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/judah.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Webdesign</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Into The Light</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Console</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
    <!-- footer
    ================================================== -->
    <footer>
